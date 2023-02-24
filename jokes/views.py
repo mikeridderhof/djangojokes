@@ -27,3 +27,4 @@ class JokeListView(ListView):
 class JokeUpdateView(UpdateView):
     model = Joke
     fields = ['question', 'answer']
+    
